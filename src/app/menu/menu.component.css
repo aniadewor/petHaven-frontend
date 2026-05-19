@@ -1,0 +1,23 @@
+.main-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #475569;
+  font-weight: 600;
+  font-size: 15px;
+  transition: color 0.2s;
+}
+
+.main-nav a:hover {
+  color: #00a8cc;
+}
+
+.main-nav a.has-arrow::after {
+  content: ' ▾';
+  font-size: 11px;
+  color: #94a3b8;
+}

@@ -1,0 +1,50 @@
+/* RESET I STYLE BAZOWE */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f8fafc;
+  color: #333333;
+}
+
+/* GŁÓWNY KONTENER (Tutaj był błąd - teraz jest poprawnie) */
+.pawzone-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* SEKCJE NAGŁÓWKÓW */
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.section-header h2 {
+  font-size: 24px;
+  color: #0b3954;
+  font-weight: 800;
+}
+
+.arrow-btn {
+  background: white;
+  border: 1px solid #e2e8f0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: all 0.2s;
+}
+
+.arrow-btn:hover {
+  background: #0b3954;
+  color: white;
+}
+

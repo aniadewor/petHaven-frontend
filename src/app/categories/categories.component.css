@@ -1,0 +1,52 @@
+/* KATEGORIE */
+.categories-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.category-item {
+  flex: 1;
+  min-width: 140px;
+  background: white;
+  border-radius: 16px;
+  padding: 24px 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.category-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.icon-box {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+
+.category-item span {
+  font-size: 14px;
+  font-weight: 700;
+  color: #475569;
+}
+
+.cat-dogfood .icon-box { background-color: #fff2e6; }
+.cat-catfood .icon-box { background-color: #e6f7ff; }
+.cat-treats .icon-box { background-color: #ffeef0; }
+.cat-trees .icon-box { background-color: #f6ffed; }
+.cat-toys .icon-box { background-color: #f9f0ff; }
+.cat-bowls .icon-box { background-color: #fffbe6; }
